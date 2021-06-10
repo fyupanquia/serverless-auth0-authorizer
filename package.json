@@ -4,6 +4,9 @@
   "author": "Ariel Weinberger <ariel@codingly.io>",
   "description": "Demonstration of protecting API gateway endpoints with auth0",
   "license": "MIT",
+  "scripts": {
+    "deploy":"sls deploy -v"
+  },
   "dependencies": {
     "jsonwebtoken": "^8.1.0"
   },
